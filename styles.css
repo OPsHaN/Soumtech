@@ -60,6 +60,11 @@ h5 {
   color: #ffffff;
 }
 
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+}
+
+
 .dropdown-item {
   text-align: right;
 }
