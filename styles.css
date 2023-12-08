@@ -356,7 +356,7 @@ input:checked + label {
 .label-top {
   position: absolute;
   background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-  top: 203px;
+  top: 200px;
   right: 7px;
   padding: 5px 10px 5px 10px;
   font-size: .7rem;
@@ -387,12 +387,12 @@ input:checked + label {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
 
   .label-top {
     position: absolute;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 167px;
+    top: 200px;
     right: 9px;
     padding: 5px 10px 5px 10px;
     font-size: .7rem;
@@ -409,13 +409,13 @@ input:checked + label {
   .label-top {
     position: absolute;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 270px;
+    top: 325px;
     right: 9px;
     padding: 5px 10px 5px 10px;
     font-size: .7rem;
     font-weight: 600;
     border-radius: 0px 0px 8px 8px;
-    width: 95%;
+    width: 96%;
   }
 
 }
@@ -429,7 +429,7 @@ input:checked + label {
   .label-top {
     position: absolute;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 269px;
+    top: 231px;
     right: 8px;
     padding: 5px 10px 5px 10px;
     font-size: .7rem;
@@ -452,7 +452,7 @@ input:checked + label {
   .label-top {
     position: absolute;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 296px;
+    top: 393px;
     right: 7px;
     padding: 5px 10px 5px 10px;
     font-size: .7rem;
@@ -468,7 +468,7 @@ input:checked + label {
     position: absolute;
     background-color: rgba(0, 217, 255, 0.055);
     color: #fff;
-    top: 225px;
+    top: 255px;
     right: 6px;
     padding: 5px 10px 5px 10px;
     font-size: .7rem;
@@ -484,13 +484,13 @@ input:checked + label {
   .label-top {
     position: absolute;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 208px;
-    right: 7px;
+    top: 168px;
+    right: 6px;
     padding: 5px 10px 5px 10px;
     font-size: .7rem;
     font-weight: 600;
     border-radius: 0px 0px 15px 15px;
-    width: 97%;
+    width: 95%;
   }
 
 }  
