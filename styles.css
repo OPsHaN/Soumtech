@@ -409,7 +409,7 @@ input:checked + label {
   .label-top {
     position: absolute;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 325px;
+    top: 270px;
     right: 9px;
     padding: 5px 10px 5px 10px;
     font-size: .7rem;
@@ -452,7 +452,7 @@ input:checked + label {
   .label-top {
     position: absolute;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 393px;
+    top: 320px;
     right: 7px;
     padding: 5px 10px 5px 10px;
     font-size: .7rem;
