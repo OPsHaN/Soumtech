@@ -350,19 +350,17 @@ input:checked + label {
 
 }
 
-
-
-
-.label-top {
+.figure-caption {
+  font-size: .875em;
+  color: #ffffff;
   position: absolute;
+  top: 203px;
+  right: 8px;
   background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-  top: 200px;
-  right: 7px;
-  padding: 5px 10px 5px 10px;
-  font-size: .7rem;
   font-weight: 600;
   border-radius: 0px 0px 8px 8px;
   width: 95%;
+  padding:2px;
 }
 
 .hstack {
@@ -387,18 +385,38 @@ input:checked + label {
 }
 
 
-@media (max-width: 1366px) {
+@media (max-width: 1200px) {
 
-  .label-top {
+  .figure-caption {
+    font-size: .875em;
+    color: #ffffff;
     position: absolute;
+    top: 180px;
+    right: 10px;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 202px;
-    right: 9px;
-    padding: 5px 10px 5px 10px;
-    font-size: .7rem;
     font-weight: 600;
     border-radius: 0px 0px 8px 8px;
-    width: 95%;
+    /* width: 95%; */
+    padding:2px;
+    font-size: 13px;
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+
+  .figure-caption {
+    font-size: .875em;
+    color: #ffffff;
+    position: absolute;
+    top: 178px;
+    right: 10px;
+    background-color: rgba(0, 217, 255, 0.055);  color: #fff;
+    font-weight: 600;
+    border-radius: 0px 0px 8px 8px;
+    /* width: 95%; */
+    padding:2px;
   }
 
 }
@@ -406,16 +424,16 @@ input:checked + label {
 
 @media (max-width: 992px) {
 
-  .label-top {
+  .figure-caption {
+    font-size: .875em;
+    color: #ffffff;
     position: absolute;
+    top: 236px;
+    right: 8px;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 270px;
-    right: 9px;
-    padding: 5px 10px 5px 10px;
-    font-size: .7rem;
     font-weight: 600;
     border-radius: 0px 0px 8px 8px;
-    width: 96%;
+    padding:2px;
   }
 
 }
@@ -426,16 +444,17 @@ input:checked + label {
     max-height: 250px
   }
 
-  .label-top {
+  .figure-caption {
+    font-size: .875em;
+    color: #ffffff;
     position: absolute;
-    background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 270px;
+    top: 232px;
     right: 8px;
-    padding: 5px 10px 5px 10px;
-    font-size: .7rem;
+    background-color: rgba(0, 217, 255, 0.055);  color: #fff;
+    width: 95%;
     font-weight: 600;
     border-radius: 0px 0px 8px 8px;
-    width: 95%;
+    padding:2px;
   }
 
 }
@@ -449,31 +468,35 @@ input:checked + label {
     max-width: 200px
   }
 
-  .label-top {
+  .figure-caption {
+    font-size: .875em;
+    color: #ffffff;
     position: absolute;
+    top: 237px;
+    right: 8px;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 395px;
-    right: 7px;
-    padding: 5px 10px 5px 10px;
-    font-size: .7rem;
+    width: 90%;
     font-weight: 600;
-    border-radius: 0px 0px 15px 15px;
-    width: 97%;
+    border-radius: 0px 0px 8px 8px;
+    width: 95%;
+    padding:2px;
   }
 }
 
 @media (max-width: 375px) {
 
-  .label-top {
+  .figure-caption {
+    font-size: .875em;
+    color: #ffffff;
     position: absolute;
-    background-color: rgba(0, 217, 255, 0.055);
-    color: #fff;
-    top: 255px;
-    right: 6px;
-    padding: 5px 10px 5px 10px;
-    font-size: .7rem;
+    top: 225px;
+    right: 8px;
+    background-color: rgba(0, 217, 255, 0.055);  color: #fff;
+    width: 90%;
     font-weight: 600;
-    width: 96%;
+    border-radius: 0px 0px 8px 8px;
+    width: 95%;
+    padding:2px;
   }
 
 }  
@@ -481,16 +504,18 @@ input:checked + label {
 
 @media (max-width: 320px) {
 
-  .label-top {
+  .figure-caption {
+    font-size: .875em;
+    color: #ffffff;
     position: absolute;
+    top: 170px;
+    right: 8px;
     background-color: rgba(0, 217, 255, 0.055);  color: #fff;
-    top: 168px;
-    right: 6px;
-    padding: 5px 10px 5px 10px;
-    font-size: .7rem;
+    width: 90%;
     font-weight: 600;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 8px 8px;
     width: 95%;
+    padding:2px;
   }
 
 }  
